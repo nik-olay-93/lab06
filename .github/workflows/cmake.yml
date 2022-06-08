@@ -2,7 +2,7 @@ name: CMake
 
 on:
   push:
-    tags: -"v*.*"
+    tags: -"*"
 
 env:
   BUILD_TYPE: Release
